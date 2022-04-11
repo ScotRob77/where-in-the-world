@@ -35,6 +35,10 @@ body {
     border: 3px solid greenyellow;
 }
 
+#username:hover {
+    border: 3px solid blue;
+}
+
 /* settings for game area including question and answer divs and submit button */
 
 .game-area {
@@ -49,6 +53,10 @@ body {
 
 .start {
     text-align: center;
+}
+
+#start-quiz:hover {
+    border: 3px solid blue;
 }
 
 #start-quiz {
