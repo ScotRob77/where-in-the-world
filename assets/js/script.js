@@ -1,48 +1,38 @@
 // the quiz questions
 const quizQuestion = [{
         question: "What is the capital city of...?",
-        answers: {
-            a: "Answer a",
-            b: "Answer b",
-            c: "Answer c"
-        },
-        correctAnswer: "c"
+        a: "Answer a",
+        b: "Answer b",
+        c: "Answer c",
+        answer: c,
     },
     {
         question: "What is the capital city of...?",
-        answers: {
-            a: "Answer a",
-            b: "Answer b",
-            c: "Answer c"
-        },
-        correctAnswer: "c"
+        a: "Answer a",
+        b: "Answer b",
+        c: "Answer c",
+        answer: c,
     },
     {
         question: "What is the capital city of...?",
-        answers: {
-            a: "Answer a",
-            b: "Answer b",
-            c: "Answer c"
-        },
-        correctAnswer: "c"
+        a: "Answer a",
+        b: "Answer b",
+        c: "Answer c",
+        answer: c,
     },
     {
         question: "What is the capital city of...?",
-        answers: {
-            a: "Answer a",
-            b: "Answer b",
-            c: "Answer c"
-        },
-        correctAnswer: "c"
+        a: "Answer a",
+        b: "Answer b",
+        c: "Answer c",
+        answer: c,
     },
     {
         question: "What is the capital city of...?",
-        answers: {
-            a: "Answer a",
-            b: "Answer b",
-            c: "Answer c"
-        },
-        correctAnswer: "c"
+        a: "Answer a",
+        b: "Answer b",
+        c: "Answer c",
+        answer: c,
     },
 
 ]
@@ -63,18 +53,3 @@ let totalScore = document.getElementById("total-score");
 // Wait for the DOM to finish loading before running the game
 // Get the button elements and add event listeners to them
 
-document.addEventListener("DOMContentLoaded", function () {
-    let buttons = document.getElementsByTagName("button");
-
-
-function runGame() {
-
-}
-
-function checkAnswer() {
-
-}
-
-function incrementScore() {
-
-}
