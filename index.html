@@ -16,21 +16,34 @@
     <div>
         <h1 class="heading">Where In The World</h1>
     </div>
+
     <div class="rules">
         <p>Instructions and introduction</p>
     </div>
+
     <div class="userinput">
         <input id="username" type="text" placeholder="Enter Username"> 
     </div>
 
     <div class="game-area">
 
-        <div>
-            <button id="start-quiz"></button>
+        <div class="start">
+            <button id="start-quiz">Start Quiz</button>
         </div>
-        <div>
-            <p id="question"></p>
+
+        <div class="quiz-area">
+            <div class="question-area">
+                <p id="question">Question..?</p>
+            </div>
+
+            <div class="answer-area">
+                <div>Answer 1</div>
+                <div>Answer 2</div>
+                <div>Answer 3</div>
+            </div> 
+            <button data-type="submit" class="submit">Submit Answer</button>
         </div>
+
         <div>
 
         </div>

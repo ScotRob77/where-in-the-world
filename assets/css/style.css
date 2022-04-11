@@ -8,10 +8,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: azure;
 }
 
 .heading {
     text-align: center;
+    padding: 20px 0 10px;
 }
 
 .rules {
@@ -35,4 +37,55 @@ body {
     text-align: center;
     font-size: 1.5rem;
     margin-top: 20px;
+    border: 3px solid greenyellow;
+}
+
+.start {
+    text-align: center;
+}
+
+#start-quiz {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: white;
+    border: 3px solid greenyellow;
+}
+
+.quiz-area {
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin: 30px 20px;
+    background-color: rgba(192, 203, 243, 0.3);
+    border: 2px solid greenyellow;
+}
+
+.question-area {
+    font-size: 1.5rem;
+    margin: 40px 20px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 2%;
+    background-color: white;
+    border: 3px solid greenyellow;
+}
+
+.answer-area {
+    font-size: 1.5rem;
+    margin: 60px 20px 30px 20px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 2%;
+    background-color: white;
+    border: 3px solid greenyellow;
+}
+
+.submit {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: white;
+    border: 3px solid greenyellow;
+    float: right;
+    margin: 0 20px 20px auto;
 }
