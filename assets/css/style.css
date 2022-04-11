@@ -9,3 +9,30 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.heading {
+    text-align: center;
+}
+
+.rules {
+    text-align: center;
+}
+
+.game-area {
+    background: url(../images/city-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    background-position: center;
+    margin: 5%;
+}
+
+.userinput {
+    text-align: center;
+}
+
+#username {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}

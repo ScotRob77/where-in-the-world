@@ -1,6 +1,7 @@
 # Where in the World
 This website is a quiz aimed a testing the users knowledge of cities of the world.
 It is fun and educational as the correct answer is given if the user gets the question wrong.
+It is aimed at people of all school ages
 
 # Index
 * User Experience
